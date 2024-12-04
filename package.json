@@ -1,0 +1,24 @@
+{
+  "name": "valaxy-blog",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "npm run build:ssg",
+    "build:spa": "valaxy build",
+    "build:ssg": "valaxy build --ssg",
+    "dev": "valaxy",
+    "rss": "valaxy rss",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "valaxy": "0.20.6",
+    "valaxy-addon-meting": "^0.1.4",
+    "valaxy-addon-waline": "^0.2.0",
+    "valaxy-theme-hairy": "^1.2.7",
+    "valaxy-theme-yun": "0.20.6"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}

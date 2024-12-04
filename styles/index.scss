@@ -1,0 +1,16 @@
+:root {
+  --un-prose-hr: #000;
+}
+
+.dark {
+  --un-prose-hr: rgb(195, 195, 195);
+}
+
+.aplayer-lrc::before,
+.aplayer-lrc::after {
+  display: none !important;
+}
+
+.main {
+  min-width: 0;
+}
