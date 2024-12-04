@@ -5,7 +5,7 @@ export default defineSiteConfig({
   title: 'Muzi\'s Blog',
   url: 'https://www.easymuzi.cn/',
   author: {
-    avatar: '/images/avatar1.jpg',
+    avatar: 'https://cdn.easymuzi.cn/gh/MuziGeek/Blog_Img/cdnImg/20241205010750914.jpg',
     name: '木子金又二丨',
   },
   search: {
