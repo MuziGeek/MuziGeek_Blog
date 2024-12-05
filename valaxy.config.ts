@@ -21,6 +21,7 @@ export default defineConfig<ThemeConfig>({
     },
     post:{
       images: [
+<<<<<<< HEAD
         'https://cdn.easymuzi.cn/gh/MuziGeek/Blog_Img/cdnImg/20241205010728379.jpg',
         'https://cdn.easymuzi.cn/gh/MuziGeek/Blog_Img/cdnImg/20241205010711377.jpg',
         'https://cdn.easymuzi.cn/gh/MuziGeek/Blog_Img/cdnImg/20241205010645309.jpg',
@@ -29,6 +30,17 @@ export default defineConfig<ThemeConfig>({
         'https://cdn.easymuzi.cn/gh/MuziGeek/Blog_Img/cdnImg/20241205010556424.jpg',
         'https://cdn.easymuzi.cn/gh/MuziGeek/Blog_Img/cdnImg/20241205010503702.jpg',
         'https://cdn.easymuzi.cn/gh/MuziGeek/Blog_Img/cdnImg/20241205010424368.jpg',
+=======
+        'https://cdn.easymuzi.cn/gh/MuziGeek/Blog_Img/cdnImg/20241205010424368.jpg',
+        'https://cdn.easymuzi.cn/gh/MuziGeek/Blog_Img/cdnImg/20241205010503702.jpg',
+        'https://cdn.easymuzi.cn/gh/MuziGeek/Blog_Img/cdnImg/20241205010509302.jpg',
+        'https://cdn.easymuzi.cn/gh/MuziGeek/Blog_Img/cdnImg/20241205010556424.jpg',
+        'https://cdn.easymuzi.cn/gh/MuziGeek/Blog_Img/cdnImg/20241205010614215.jpg',
+        'https://cdn.easymuzi.cn/gh/MuziGeek/Blog_Img/cdnImg/20241205010617753.jpg',
+        'https://cdn.easymuzi.cn/gh/MuziGeek/Blog_Img/cdnImg/20241205010645309.jpg',
+        'https://cdn.easymuzi.cn/gh/MuziGeek/Blog_Img/cdnImg/20241205010711377.jpg',
+        'https://cdn.easymuzi.cn/gh/MuziGeek/Blog_Img/cdnImg/20241205010728379.jpg',
+>>>>>>> f6046b67d8057b7b789377798a0741539cc887b7
       ]
     },
     nav: [

@@ -8,8 +8,8 @@ const config = useSiteConfig()
 
 const hour = dayjs().hour()
 const hello = riposte(
-  [hour >= 5 && hour < 12, 'Morning☀'],
-  [hour >= 12 && hour < 18, 'Afternoon🌤'],
+  [hour >= 5 && hour < 12, 'Morning☀️'],
+  [hour >= 12 && hour < 18, 'Afternoon🌈'],
   [true, 'Night🌙'],
 )
 </script>
