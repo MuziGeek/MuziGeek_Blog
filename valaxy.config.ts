@@ -16,19 +16,19 @@ export default defineConfig<ThemeConfig>({
       title: 'Muzi\'s Notes',
       description: 'Muzi\'s Notes',
       images: [
-        '/images/bg3.jpg',
+        'https://cdn.easymuzi.cn/gh/MuziGeek/Blog_Img/cdnImg/20241205010742695.jpg',
        ]
     },
     post:{
       images: [
-        '/images/post0.jpg',
-        '/images/post1.jpg',
-        '/images/post2.jpg',
-        '/images/post3.jpg',
-        '/images/post4.jpg',
-        '/images/post5.jpg',
-        '/images/post6.jpg',
-        '/images/post7.jpg',
+        'https://cdn.easymuzi.cn/gh/MuziGeek/Blog_Img/cdnImg/20241205010728379.jpg',
+        'https://cdn.easymuzi.cn/gh/MuziGeek/Blog_Img/cdnImg/20241205010711377.jpg',
+        'https://cdn.easymuzi.cn/gh/MuziGeek/Blog_Img/cdnImg/20241205010645309.jpg',
+        'https://cdn.easymuzi.cn/gh/MuziGeek/Blog_Img/cdnImg/20241205010617753.jpg',
+        'https://cdn.easymuzi.cn/gh/MuziGeek/Blog_Img/cdnImg/20241205010614215.jpg',
+        'https://cdn.easymuzi.cn/gh/MuziGeek/Blog_Img/cdnImg/20241205010556424.jpg',
+        'https://cdn.easymuzi.cn/gh/MuziGeek/Blog_Img/cdnImg/20241205010503702.jpg',
+        'https://cdn.easymuzi.cn/gh/MuziGeek/Blog_Img/cdnImg/20241205010424368.jpg',
       ]
     },
     nav: [
