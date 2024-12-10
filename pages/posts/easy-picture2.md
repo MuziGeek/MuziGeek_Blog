@@ -92,3 +92,5 @@ create table if not exists user
 ![image.png](https://cdn.easymuzi.cn/img/20241210224157839.png?imageSlim&imageSlim)
 
 ![image.png](https://cdn.easymuzi.cn/img/20241210224331607.png?imageSlim&imageSlim)
+
+![image.png](https://cdn.easymuzi.cn/img/20241210234204555.png?imageSlim&imageSlim)
