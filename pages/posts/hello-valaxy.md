@@ -14,6 +14,7 @@ top: 1
 Next Generation Static Blog Framework.
 
 Write your first post!
+11111111测试
 
 <hairy-image src="https://cdn.nlark.com/yuque/0/2024/png/26566882/1733624491358-6eb0bd70-6c30-4a5b-818b-23ff8365ae69.png"/>
 ## Usage
