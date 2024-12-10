@@ -44,7 +44,8 @@ top: 2
 
 #### 1.核心设计
 用户表的核心是用户登录凭证（账号密码）和个人信息，SQL如下
-···
+```
+-- 用户表  
 -- 用户表  
 create table if not exists user  
 (  
@@ -59,7 +60,20 @@ create table if not exists user
     createTime   datetime     default CURRENT_TIMESTAMP not null comment '创建时间',  
     updateTime   datetime     default CURRENT_TIMESTAMP not null on update CURRENT_TIMESTAMP comment '更新时间',  
     isDelete     tinyint      default 0                 not null comment '是否删除',  
-    UNIQUE KEY uk_userAccount (userAccount),  
+    vipExpireTime datetime     null comment '会员过期时间',  
+    vipCode       varchar(128) null comment '会员兑换码',  
+    vipNumber     bigint       null comment '会员编号',  
+    shareCode     varchar(20)  DEFAULT NULL COMMENT '分享码',  
+    inviteUser    bigint       DEFAULT NULL COMMENT '邀请用户 id',  
+        UNIQUE KEY uk_userAccount (userAccount),  
     INDEX idx_userName (userName)  
-    ) comment '用户' collate = utf8mb4_unicode_ci;
-···
+) comment '用户' collate = utf8mb4_unicode_ci;
+```
+
+几个注意事项：
+1. 常用字段加上索引 如userName 可以加快我们的查询效率
+2. 给唯一值添加唯一索引，比如账号userAccount，利用数据库天然的唯一索引防止重复，同时也可以加快查询效率
+
+#### 2. 扩展设计
+1. 如果要实现会员功能，可以对表进行扩展，如上面的SQL
+	1. 给
