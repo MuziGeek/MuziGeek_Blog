@@ -33,9 +33,8 @@ npm create vue@latest
 
 然后执行项目`npm run dev`
 
-![](https://cdn.easymuzi.cn/img/20241210115816352.png?imageSlim)
-
-![](https://cdn.easymuzi.cn/img/20241210115816351.png?imageSlim)
+<hairy-image src="https://cdn.easymuzi.cn/img/20241210115816352.png?imageSlim" />
+<hairy-image src="https://cdn.easymuzi.cn/img/20241210115816351.png?imageSlim" />
 如果不使用脚手架，就需要自己整合这些工具：
 
 - 代码规范：[https://eslint.org/docs/latest/use/getting-started](https://eslint.org/docs/latest/use/getting-started)
