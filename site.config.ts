@@ -40,13 +40,13 @@ export default defineSiteConfig({
     },
     {
       name: '知乎',
-      link: 'https://www.zhihu.com/people/mao-mao-47-99-46',
+      link: 'https://www.zhihu.com/people/mu-zi-jin-you-er-gun',
       icon: 'i-ri-zhihu-line',
       color: '#0084FF',
     },
     {
       name: '哔哩哔哩',
-      link: 'https://space.bilibili.com/1490903',
+      link: 'https://space.bilibili.com/357495973',
       icon: 'i-ri-bilibili-line',
       color: '#FF8EB3',
     },
@@ -58,7 +58,7 @@ export default defineSiteConfig({
     },
     {
       name: 'E-Mail',
-      link: 'mailto:liduo0316@gmail.com',
+      link: 'mailto:mz@easymuzi.cn',
       icon: 'i-material-symbols-attach-email',
       color: '#8E71C1',
     },
