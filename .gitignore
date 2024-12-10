@@ -18,3 +18,4 @@ node_modules
 *.log
 
 components.d.ts
+pages\posts\.obsidian
