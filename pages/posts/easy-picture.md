@@ -517,7 +517,7 @@ healthUsingGet().then((res) => {
 
 对于跨域，可以通过修改后端代码，增加全局跨域配置或者跨域注解来解决
 
-![](https://cdn.easymuzi.cn/img/20241210115816355.png?imageSlim)
+<hairy-image src="https://cdn.easymuzi.cn/img/20241210115816355.png?imageSlim" />
 
 如果后端代码无法修改，还可以通过前端代理服务器来解决，如果项目使用Vite，内置了代理服务器，可以修改vite.config.ts文件，增加代理配置
 
@@ -542,7 +542,7 @@ const myAxios = axios.create({
 })
 ```
 
-还有很多前端请求代理工具，比如[Whistle](about:blank)
+还有很多前端请求代理工具，比如[Whistle]
 
 ## 全局状态管理
 
@@ -670,4 +670,4 @@ const msg = "欢迎来到Muzi云图库~";
 </style>
 ```
 
-![](https://cdn.easymuzi.cn/img/20241210115816354.png?imageSlim)
+<hairy-image src="https://cdn.easymuzi.cn/img/20241210115816354.png?imageSlim" />
