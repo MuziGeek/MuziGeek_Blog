@@ -77,3 +77,6 @@ create table if not exists user
 #### 2. 扩展设计
 1. 如果要实现会员功能，可以对表进行扩展，如上面的SQL
 	1. 给
+![image.png](https://cdn.easymuzi.cn/img/20241210223945126.png?imageSlim&imageSlim)
+
+
