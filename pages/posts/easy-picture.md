@@ -110,7 +110,7 @@ app.mount('#app')
 ```
 
 替换public目录下默认的ico图标为自己的，有很多[现成的网站](https://toolin.cn/favicon)可以制作ico图标。
-![](https://cdn.easymuzi.cn/img/20241210115816349.png?imageSlim)
+<hairy-image src="https://cdn.easymuzi.cn/img/20241210115816349.png?imageSlim" />
 ## 全局通用布局
 
 ### 1. 基础布局结构
@@ -163,7 +163,7 @@ import BasicLayout from "@/layouts/BasicLayout.vue";
 </style>
 ```
 
-![](https://cdn.easymuzi.cn/img/20241210115816347.png?imageSlim)
+<hairy-image src="https://cdn.easymuzi.cn/img/20241210115816347.png?imageSlim" />
 ### 2. 全局底部栏
 
 通常用于展示版权信息：
@@ -218,7 +218,8 @@ import BasicLayout from "@/layouts/BasicLayout.vue";
 
 由于顶部栏的开发相对复杂，可以基于[Ant Design的菜单组件](https://antdv.com/components/menu-cn)来创建`GlobalHeader`全局顶部栏组件，**组件统一放在compents目录中**。
 
-![](https://cdn.easymuzi.cn/img/20241210115816346.png?imageSlim)
+![
+<hairy-image src="https://cdn.easymuzi.cn/img/20241210115816346.png?imageSlim" />
 
 在基础布局中引入顶部栏组件：
 
