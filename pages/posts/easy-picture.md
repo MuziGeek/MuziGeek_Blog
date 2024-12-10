@@ -27,7 +27,7 @@ npm create vue@latest
 
 工具选择
 
-![](https://cdn.easymuzi.cn/img/20241210115816353.png?imageSlim)
+<hairy-image src="https://cdn.easymuzi.cn/img/20241210115816353.png?imageSlim" />
 
 打开项目后执行`npm install`
 
