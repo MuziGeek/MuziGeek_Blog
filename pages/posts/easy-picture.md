@@ -218,7 +218,6 @@ import BasicLayout from "@/layouts/BasicLayout.vue";
 
 由于顶部栏的开发相对复杂，可以基于[Ant Design的菜单组件](https://antdv.com/components/menu-cn)来创建`GlobalHeader`全局顶部栏组件，**组件统一放在compents目录中**。
 
-![
 <hairy-image src="https://cdn.easymuzi.cn/img/20241210115816346.png?imageSlim" />
 
 在基础布局中引入顶部栏组件：
@@ -239,7 +238,7 @@ import GlobalHeader from "@/components/GlobalHeader.vue";
 
 效果如下：
 
-![](https://cdn.easymuzi.cn/img/20241210115816345.png?imageSlim)
+<hairy-image src="https://cdn.easymuzi.cn/img/20241210115816345.png?imageSlim" />
 
 可以修改下全局header的样式，清楚一些默认样式（比如背景色等），样式代码如下：
 
@@ -294,7 +293,7 @@ const items = ref<MenuProps['items']>([
 
 效果如图：
 
-![](https://cdn.easymuzi.cn/img/20241210115816343.png?imageSlim)
+<hairy-image src="https://cdn.easymuzi.cn/img/20241210115816343.png?imageSlim" />
 
 3. 完善全局顶部栏，左侧补充网站图标和标题
 
@@ -348,7 +347,7 @@ const items = ref<MenuProps['items']>([
 
 效果如下：
 
-![](https://cdn.easymuzi.cn/img/20241210115816342.png?imageSlim)
+<hairy-image src="https://cdn.easymuzi.cn/img/20241210115816342.png?imageSlim" />
 
 ## 路由
 
