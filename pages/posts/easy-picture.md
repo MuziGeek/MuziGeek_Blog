@@ -542,7 +542,7 @@ const myAxios = axios.create({
 })
 ```
 
-还有很多前端请求代理工具，比如[Whistle]
+还有很多前端请求代理工具，比如Whistle
 
 ## 全局状态管理
 
@@ -552,7 +552,7 @@ const myAxios = axios.create({
 
 适合作为全局状态的数据：已登录用户信息（每个页面几乎都要用）
 
-Pinia是一个主流的状态管理库，相比于Vuex来说使用更简单，可参考[入门文档](about:blank)进行引入。
+Pinia是一个主流的状态管理库，相比于Vuex来说使用更简单，可参考入门文档进行引入。
 
 ### 1. 引入Pinia
 
