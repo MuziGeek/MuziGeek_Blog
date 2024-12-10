@@ -1,20 +1,24 @@
 {
   "main": {
-    "id": "d4be221b8921f0f6",
+    "id": "78fb66f175021947",
     "type": "split",
     "children": [
       {
-        "id": "c9b9d909d6502003",
+        "id": "0ca522bd8d0a9bed",
         "type": "tabs",
         "children": [
           {
-            "id": "36a24bf149aa305f",
+            "id": "6030e2849c9d0998",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "hello-valaxy.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "hello-valaxy"
             }
           }
         ]
@@ -23,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "2b47bd1be013aff6",
+    "id": "d1faa0c0bc28a09f",
     "type": "split",
     "children": [
       {
-        "id": "f5c1bff1ef491cbc",
+        "id": "2b9bdc6ea17a34cb",
         "type": "tabs",
         "children": [
           {
-            "id": "8017d652bae63bbb",
+            "id": "d9ead9ce1e0bb8af",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +47,7 @@
             }
           },
           {
-            "id": "978f589033697d7e",
+            "id": "d9ae7783884b6005",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -60,7 +64,7 @@
             }
           },
           {
-            "id": "88579693c61d0328",
+            "id": "87b39ae34ef0a711",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -76,19 +80,20 @@
     "width": 300
   },
   "right": {
-    "id": "aff771eb00e05bf0",
+    "id": "68588979dd410c5f",
     "type": "split",
     "children": [
       {
-        "id": "237e2824af00c78f",
+        "id": "db3a36b471dc939d",
         "type": "tabs",
         "children": [
           {
-            "id": "392bf6c1035673db",
+            "id": "b0aa122ef3e18d21",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "hello-valaxy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,24 +103,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "hello-valaxy 的反向链接列表"
             }
           },
           {
-            "id": "3859c7f546777908",
+            "id": "dfc4c28c45ba359d",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "hello-valaxy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "出链"
+              "title": "hello-valaxy 的出链列表"
             }
           },
           {
-            "id": "f689c18f862df644",
+            "id": "dd46fb562ce17ae2",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -128,13 +134,15 @@
             }
           },
           {
-            "id": "a92a1235a5b17029",
+            "id": "57bf2b7bc884df1a",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "hello-valaxy.md"
+              },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "hello-valaxy 的大纲"
             }
           }
         ]
@@ -154,6 +162,6 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "8017d652bae63bbb",
+  "active": "d9ead9ce1e0bb8af",
   "lastOpenFiles": []
 }

@@ -18,4 +18,5 @@ node_modules
 *.log
 
 components.d.ts
-pages\posts\.obsidian
+# Add this line to ignore .obsidian folder
+.obsidian/
