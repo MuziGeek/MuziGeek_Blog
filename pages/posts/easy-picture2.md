@@ -77,6 +77,13 @@ create table if not exists user
 #### 2. 扩展设计
 1. 如果要实现会员功能，可以对表进行扩展，如上面的SQL
 	1. 给userRole字段新增枚举值VIP，表示会员用户，可根据该字段判断用户权限。
+	2. 新增会员过期时间字段，可用于记录会员的有效期。
+	3. 新增会员兑换码字段，可用于记录会员的开通方式。
+	4. 新增会员编号字段，可用于定位用户并提供额外服务。
+2. 如果要实现用户邀请功能，可以对表进行以下扩展：
+3. 
+![image.png](https://cdn.easymuzi.cn/img/20241210225636343.png?imageSlim&imageSlim)
+
 ![image.png](https://cdn.easymuzi.cn/img/20241210223945126.png?imageSlim&imageSlim)
 
 
