@@ -21,7 +21,7 @@ export default defineSiteConfig({
       color: 'orange',
     },
     {
-      name: '951416545',
+      name: '572428344',
       link: '--',
       icon: 'i-ri-qq-line',
       color: '#12B7F5',
@@ -52,7 +52,7 @@ export default defineSiteConfig({
     },
     {
       name: '微信',
-      link: '![](https://cdn.easymuzi.cn/img/20241209171520868.jpg?imageSlim)',
+      link: 'https://cdn.easymuzi.cn/img/20241209171520868.jpg?imageSlim',
       icon: 'i-ri-wechat-2-line',
       color: '#1AAD19',
     },
