@@ -51,8 +51,8 @@ export default defineSiteConfig({
       color: '#FF8EB3',
     },
     {
-      name: '微信公众号',
-      link: '',
+      name: '微信',
+      link: '![](https://cdn.easymuzi.cn/img/20241209171520868.jpg?imageSlim)',
       icon: 'i-ri-wechat-2-line',
       color: '#1AAD19',
     },
