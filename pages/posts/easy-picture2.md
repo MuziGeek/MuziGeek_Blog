@@ -27,3 +27,38 @@ top: 2
 4. 用户注销：用户可以退出登录
 5. 用户权限控制：用户又分为普通用户和管理员，管理员拥有整个系统的最高权限，比如可以管理其他用户
 6. 用户管理：仅管理员可用，可以对整个系统中的用户进行管理，比如搜索用户、删除用户
+
+## 二、方案设计
+
+实现用户模块的难度不大，方案设计阶段我们需要确认
+
+* 库表设计
+* 用户登录流程
+* 如何对用户权限进行控制？
+
+### 库表设计
+
+库名 ：easy_picture
+
+表名：user（用户表）
+
+#### 1.核心设计
+用户表的核心是用户登录凭证（账号密码）和个人信息，SQL如下
+···
+-- 用户表  
+create table if not exists user  
+(  
+    id           bigint auto_increment comment 'id' primary key,  
+    userAccount  varchar(256)                           not null comment '账号',  
+    userPassword varchar(512)                           not null comment '密码',  
+    userName     varchar(256)                           null comment '用户昵称',  
+    userAvatar   varchar(1024)                          null comment '用户头像',  
+    userProfile  varchar(512)                           null comment '用户简介',  
+    userRole     varchar(256) default 'user'            not null comment '用户角色：user/admin',  
+    editTime     datetime     default CURRENT_TIMESTAMP not null comment '编辑时间',  
+    createTime   datetime     default CURRENT_TIMESTAMP not null comment '创建时间',  
+    updateTime   datetime     default CURRENT_TIMESTAMP not null on update CURRENT_TIMESTAMP comment '更新时间',  
+    isDelete     tinyint      default 0                 not null comment '是否删除',  
+    UNIQUE KEY uk_userAccount (userAccount),  
+    INDEX idx_userName (userName)  
+    ) comment '用户' collate = utf8mb4_unicode_ci;
