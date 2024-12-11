@@ -81,7 +81,6 @@ create table if not exists user
 	3. 新增会员兑换码字段，可用于记录会员的开通方式。
 	4. 新增会员编号字段，可用于定位用户并提供额外服务。
 2. 如果要实现用户邀请功能，可以对表进行以下扩展：
-3. 
 ![image.png](https://cdn.easymuzi.cn/img/20241210225636343.png?imageSlim&imageSlim)
 
 ![image.png](https://cdn.easymuzi.cn/img/20241210223945126.png?imageSlim&imageSlim)
