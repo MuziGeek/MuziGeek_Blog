@@ -55,7 +55,7 @@ export default defineConfig<ThemeConfig>({
       },
       {
         text: 'Library',
-        link: 'https://www.yuque.com/muzijinyouergun',
+        link: 'https://book.easymuzi.cn',
         icon: 'i-ri-sd-card-mini-fill',
       },
       {
