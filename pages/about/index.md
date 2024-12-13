@@ -1,15 +1,15 @@
 ---
-title: 关于我
+title: About Me
 ---
 
-I am developing [Valaxy](https://github.com/YunYouJun/valaxy) - Next Generation Static Blog Framework.
 
-If you like it, you can sponsor me in [GitHub](https://github.com/sponsors/YunYouJun) or [sponsors.yunyoujun.cn](https://sponsors.yunyoujun.cn).
+<h1 align="center">
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&color=FFAAFAFF&height=70&duration=4000&lines=Hi+There!+🐻+🌙+I'm+Muzi;" />
+</h1>
 
----
 
-我正在开发 [Valaxy](https://github.com/YunYouJun/valaxy) - 下一代静态博客框架。
+<img src="https://stats.justsong.cn/api/github?id=MuziGeek&theme=dark" alt="Muzi'GitHub" style="zoom:100%;" align="right"/>
 
-如果你喜欢它，你可以在 [GitHub](https://github.com/sponsors/YunYouJun) 或 [sponsors.yunyoujun.cn](https://sponsors.yunyoujun.cn) 赞助我。
+🌈 Fake it till you make it <br />
+🌌 道阻且长 行则将至 <br />
 
-Check out the [Valaxy | GitHub](https://github.com/YunYouJun/valaxy) for more details.
