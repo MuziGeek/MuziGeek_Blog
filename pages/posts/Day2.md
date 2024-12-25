@@ -16,11 +16,10 @@
 
 #### InnoDB的存储格式
 
-![](https://cdn.nlark.com/yuque/0/2024/png/26566882/1735093354144-6a7ccaff-0c77-4ea3-8dfe-887638ab942b.png)
 
 #### 页结构
 
-![](https://cdn.nlark.com/yuque/0/2024/png/26566882/1735093934839-35d6c00a-fda0-4f12-9245-c9e986773637.png)
+
 
 ### 引导思路及假想面试
 
