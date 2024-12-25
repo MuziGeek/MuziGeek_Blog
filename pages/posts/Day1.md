@@ -3,9 +3,9 @@
 title: 面试训练营Day1
 date: 2024-12-24
 updated: 2024-12-24
-categories: 项目开发
+categories: 面试相关
 tags:
-  - 面试
+  - 面试相关
   - 笔记
 top: 2
 ---
