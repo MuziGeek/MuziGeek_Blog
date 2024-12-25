@@ -24,11 +24,9 @@ top: 2
 ### 扩展知识（了解即可）
 
 #### InnoDB的存储格式
-![image.png](https://cdn.easymuzi.cn/img/20241225161710983.png)
 
 
 #### 页结构
-![image1.png](https://cdn.easymuzi.cn/img/20241225161715249.png)
 
 
 ### 引导思路及假想面试
