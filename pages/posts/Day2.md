@@ -64,7 +64,8 @@
 
 详细看下图解释，假设有一个T1表数据如下
 
-![](https://cdn.nlark.com/yuque/0/2024/png/26566882/1735103641550-ee966040-bf75-4cff-9c79-5b81242ccb25.png)
+![image4.png](https://cdn.easymuzi.cn/img/20241225161517586.png)
+
 
 创建一个联合索引(b,c,d),构建B+树索引如下
 
