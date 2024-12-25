@@ -1,5 +1,5 @@
 ---
-title: 面试训练营Day1
+title: 面试训练营Day2
 date: 2024-12-24
 updated: 2024-12-24
 categories: 面试相关
