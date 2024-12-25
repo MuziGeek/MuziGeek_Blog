@@ -1,4 +1,11 @@
-
+title: 面试训练营Day2
+date: 2024-12-25
+updated: 2024-12-25
+categories: 面试相关
+tags:
+  - 面试相关
+  - 笔记
+top: 2
 ## MySQL三层B+树能存多少数据？
 
 具体答案题解很详细，这里只补充下思路及扩展知识点。
@@ -15,10 +22,11 @@
 ### 扩展知识（了解即可）
 
 #### InnoDB的存储格式
+![image.png](https://cdn.easymuzi.cn/img/20241225161710983.png)
 
 
 #### 页结构
-
+![image1.png](https://cdn.easymuzi.cn/img/20241225161715249.png)
 
 
 ### 引导思路及假想面试
