@@ -12,11 +12,11 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "valaxy": "0.20.6",
+    "valaxy": "0.22.5",
     "valaxy-addon-meting": "^0.1.4",
     "valaxy-addon-waline": "^0.2.0",
     "valaxy-theme-hairy": "^1.2.7",
-    "valaxy-theme-yun": "0.20.6"
+    "valaxy-theme-yun": "0.22.5"
   },
   "devDependencies": {
     "typescript": "^5.7.2"
