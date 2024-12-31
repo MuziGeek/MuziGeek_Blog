@@ -4,6 +4,7 @@ export default defineSiteConfig({
   lang: 'zh-CN',
   title: 'Muzi\'s Blog',
   url: 'https://www.easymuzi.cn/',
+  timezone: 'Asia/Shanghai',
   author: {
     avatar: 'https://cdn.easymuzi.cn/img/20241209171520861.jpg?imageSlim',
     name: '木子金又二丨',
