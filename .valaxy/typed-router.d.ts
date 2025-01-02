@@ -30,7 +30,12 @@ declare module 'vue-router/auto-routes' {
     '/categories/[...its]': RouteRecordInfo<'/categories/[...its]', '/categories/:its(.*)', { its: ParamValue<true> }, { its: ParamValue<false> }>,
     '/links/': RouteRecordInfo<'/links/', '/links', Record<never, never>, Record<never, never>>,
     '/page/[page]': RouteRecordInfo<'/page/[page]', '/page/:page', { page: ParamValue<true> }, { page: ParamValue<false> }>,
-    '/posts/hello-valaxy': RouteRecordInfo<'/posts/hello-valaxy', '/posts/hello-valaxy', Record<never, never>, Record<never, never>>,
+    '/posts/day1': RouteRecordInfo<'/posts/day1', '/posts/day1', Record<never, never>, Record<never, never>>,
+    '/posts/easy-picture': RouteRecordInfo<'/posts/easy-picture', '/posts/easy-picture', Record<never, never>, Record<never, never>>,
+    '/posts/easy-picture2': RouteRecordInfo<'/posts/easy-picture2', '/posts/easy-picture2', Record<never, never>, Record<never, never>>,
+    '/posts/essays1': RouteRecordInfo<'/posts/essays1', '/posts/essays1', Record<never, never>, Record<never, never>>,
+    '/posts/essays2': RouteRecordInfo<'/posts/essays2', '/posts/essays2', Record<never, never>, Record<never, never>>,
+    '/posts/springboot1': RouteRecordInfo<'/posts/springboot1', '/posts/springboot1', Record<never, never>, Record<never, never>>,
     '/tags/': RouteRecordInfo<'/tags/', '/tags', Record<never, never>, Record<never, never>>,
     '/tags/[tag]/': RouteRecordInfo<'/tags/[tag]/', '/tags/:tag', { tag: ParamValue<true> }, { tag: ParamValue<false> }>,
   }
